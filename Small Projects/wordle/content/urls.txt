@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/charlesreid1/five-letter-words/master/sgb-words.txt
+https://raw.githubusercontent.com/madalynrose/Words/master/assets/5-letter.txt
