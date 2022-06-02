@@ -169,12 +169,14 @@ class Bordle:
                 print("PLAY AGAIN? (y/n)\n")
                 ans = input().lower()
                 
-                if ans not in "y":
+                if ans == "n":
                     print("THANKS FOR PLAYING.\n GOODBYE!")
                     break
-                else:
+                elif ans == 'y':
                     self.reset()
                     continue
+                else: break
+                    
             else:
                 self.display()
                 self.__turns -= 1
